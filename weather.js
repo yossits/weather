@@ -2,7 +2,7 @@ var weatherRequest = new XMLHttpRequest();
 var key = "8372e22f9dc216c935396b2f059e5711";
 var cityId = '295328';
 
-weatherRequest.open("get","http://api.openweathermap.org/data/2.5/weather?id="+cityId + '&appid=' + key);
+weatherRequest.open("get","https://api.openweathermap.org/data/2.5/weather?id="+cityId + '&appid=' + key);
 weatherRequest.send();
 
 
