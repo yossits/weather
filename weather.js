@@ -8,7 +8,7 @@ weatherRequest.send();
 
 const drowWeather = (element) => {
     document.getElementById('description').innerHTML = element.weather[0].description;
-    document.getElementById('temp').innerHTML = element.main.temp;
+    document.getElementById('temp').innerHTML = element.main.temp-273;
     document.getElementById('location').innerHTML = element.name;
 }
 
